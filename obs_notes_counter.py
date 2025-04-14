@@ -23,10 +23,10 @@ if __name__ == "__main__":
     
     dir_path = Path(input("Enter directory path (to count directories): "))
     subdir_count = find_dirs(dir_path)
-    print(subdir_count)
+    print(f"number of subdirectories in your directory {subdir_count}")
 
     md_files_path = Path(input("Enter directory path (to count markdown files): "))
     num_of_notes = find_md_files(md_files_path)
-    print(num_of_notes)
+    print(f"number of notes in your vault : {num_of_notes}")
 
 
